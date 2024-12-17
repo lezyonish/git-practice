@@ -1,0 +1,859 @@
+Last login: Thu Oct 17 13:57:47 on ttys000
+elizavetanovickaya@Noutbuk-Elizaveta ~ % >....                                  
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 438 bytes | 438.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/lezyonish/cs102-2024
+   a320fe0..7c683f5  homework00 -> homework00
+(cs102) elizavetanovickaya@Noutbuklizaveta cs102-2024 % git add homework00/hello_world.py
+(cs102) elizavetanovickaya@Noutbuklizaveta cs102-2024 % git commit -m "Описание исправлений"
+On branch homework00
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .DS_Store
+        homework00/.idea/
+
+nothing added to commit but untracked files present (use "git add" to track)
+(cs102) elizavetanovickaya@Noutbuklizaveta cs102-2024 % git push origin homework00
+Everything up-to-date
+elizavetanovickaya@Noutbuk-Elizaveta ~ % >....                                                                                                                                                                                                  
+platformdirs==4.3.6
+pylint==3.3.1
+tomlkit==0.13.2
+typing_extensions==4.12.2
+(cs102) elizavetanovickaya@Noutbuklizaveta ~ % git clone https://github.com/lezyonish/cs102-2024             
+fatal: destination path 'cs102-2024' already exists and is not an empty directory.
+(cs102) elizavetanovickaya@Noutbuklizaveta ~ % echo 'alias gocs102="cd /путь/к/каталогу/cs102-2024"' >> ~/.bashrc
+(cs102) elizavetanovickaya@Noutbuklizaveta ~ % . ~/.bashrc
+(cs102) elizavetanovickaya@Noutbuklizaveta ~ % gocs102
+cd: no such file or directory: /путь/к/каталогу/cs102-2024
+(cs102) elizavetanovickaya@Noutbuklizaveta ~ % echo 'alias gocs102="cd /Users/elizavetanovickaya/cs102-2024/homework00/hello_world.py"' >> ~/.bashrc
+(cs102) elizavetanovickaya@Noutbuklizaveta ~ % . ~/.bashrc
+(cs102) elizavetanovickaya@Noutbuklizaveta ~ % gocs102
+cd: not a directory: /Users/elizavetanovickaya/cs102-2024/homework00/hello_world.py
+(cs102) elizavetanovickaya@Noutbuklizaveta ~ % pwd
+/Users/elizavetanovickaya
+(cs102) elizavetanovickaya@Noutbuklizaveta ~ % echo 'alias gocs102="cd /Users/elizavetanovickaya/cs102-2024"' >> ~/.bashrc
+(cs102) elizavetanovickaya@Noutbuklizaveta ~ % . ~/.bashrc
+(cs102) elizavetanovickaya@Noutbuklizaveta ~ % gocs102
+(cs102) elizavetanovickaya@Noutbuklizaveta cs102-2024 % pwd
+/Users/elizavetanovickaya/cs102-2024
+(cs102) elizavetanovickaya@Noutbuklizaveta cs102-2024 % isort homework00/hello_world.py
+(cs102) elizavetanovickaya@Noutbuklizaveta cs102-2024 % black -l 120 homework00/hello_world.py
+reformatted homework00/hello_world.py
+
+All done! ✨ 🍰 ✨
+1 file reformatted.
+(cs102) elizavetanovickaya@Noutbuklizaveta cs102-2024 % mypy homework00/hello_world.py
+Success: no issues found in 1 source file
+(cs102) elizavetanovickaya@Noutbuklizaveta cs102-2024 % pylint homework00/hello_world.py
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
+(cs102) elizavetanovickaya@Noutbuklizaveta cs102-2024 % git checkout -b homework00
+fatal: a branch named 'homework00' already exists
+(cs102) elizavetanovickaya@Noutbuklizaveta cs102-2024 % git add homework00/hello_world.py
+(cs102) elizavetanovickaya@Noutbuklizaveta cs102-2024 % git commit -m "Исправлены ошибки"
+[homework00 7c683f5] Исправлены ошибки
+ Committer: Elizaveta <elizavetanovickaya@Noutbuklizaveta.HomeLAN>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 6 deletions(-)
+(cs102) elizavetanovickaya@Noutbuklizaveta cs102-2024 % git push origin homework00
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 438 bytes | 438.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/lezyonish/cs102-2024
+   a320fe0..7c683f5  homework00 -> homework00
+(cs102) elizavetanovickaya@Noutbuklizaveta cs102-2024 % git add homework00/hello_world.py
+(cs102) elizavetanovickaya@Noutbuklizaveta cs102-2024 % git commit -m "Описание исправлений"
+On branch homework00
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .DS_Store
+        homework00/.idea/
+
+nothing added to commit but untracked files present (use "git add" to track)
+(cs102) elizavetanovickaya@Noutbuklizaveta cs102-2024 % git push origin homework00
+Everything up-to-date
+
+zsh: parse error near `elizavetanovickaya@N...'
+elizavetanovickaya@Noutbuk-Elizaveta ~ % gocs102 && cd homework01
+zsh: command not found: gocs102
+elizavetanovickaya@Noutbuk-Elizaveta ~ % echo 'alias gocs102="cd /путь/к/каталогу/cs102-2024"' >> ~/.bashrc
+elizavetanovickaya@Noutbuk-Elizaveta ~ % . ~/.bashrc
+elizavetanovickaya@Noutbuk-Elizaveta ~ % gocs102
+cd: no such file or directory: /путь/к/каталогу/cs102-2024
+elizavetanovickaya@Noutbuk-Elizaveta ~ % echo 'alias gocs102="cd /Users/elizavetanovickaya/cs102-2024"' >> ~/.bashrc
+elizavetanovickaya@Noutbuk-Elizaveta ~ % . ~/.bashrc
+elizavetanovickaya@Noutbuk-Elizaveta ~ % gocs102
+elizavetanovickaya@Noutbuk-Elizaveta cs102-2024 % pwd
+
+/Users/elizavetanovickaya/cs102-2024
+elizavetanovickaya@Noutbuk-Elizaveta cs102-2024 % gocs102 && cd homework01
+elizavetanovickaya@Noutbuk-Elizaveta homework01 % workon cs102
+zsh: command not found: workon
+elizavetanovickaya@Noutbuk-Elizaveta homework01 % function workon() {
+    if test -z "$1" ; then
+        echo "Specify the name of the virtual environment"
+    elif test ! -f "$HOME/.virtualenvs/$1/bin/activate" ; then
+        echo "Environment doesn't exist"
+    else
+        deactivate 2> /dev/null
+        source "$HOME/.virtualenvs/$1/bin/activate"
+    fi
+}
+elizavetanovickaya@Noutbuk-Elizaveta homework01 % workon cs102
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % git checkout -b homework01 master
+Switched to a new branch 'homework01'
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % touch caesar.ру
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % nano caesar.ру
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % python -m doctest -v caesar.py
+Trying:
+    decrypt_caesar("SBWKRQ")
+Expecting:
+    'PYTHON'
+ok
+Trying:
+    decrypt_caesar("sbwkrq")
+Expecting:
+    'python'
+ok
+Trying:
+    decrypt_caesar("Sbwkrq3.6")
+Expecting:
+    'Python3.6'
+ok
+Trying:
+    decrypt_caesar("")
+Expecting:
+    ''
+ok
+Trying:
+    encrypt_caesar("PYTHON")
+Expecting:
+    'SBWKRQ'
+ok
+Trying:
+    encrypt_caesar("python")
+Expecting:
+    'sbwkrq'
+ok
+Trying:
+    encrypt_caesar("Python3.6")
+Expecting:
+    'Sbwkrq3.6'
+ok
+Trying:
+    encrypt_caesar("")
+Expecting:
+    ''
+ok
+1 items had no tests:
+    caesar
+2 items passed all tests:
+   4 tests in caesar.decrypt_caesar
+   4 tests in caesar.encrypt_caesar
+8 tests in 3 items.
+8 passed and 0 failed.
+Test passed.
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % python -m unittest -v tests.test_caesar
+test_decrypt (tests.test_caesar.CaesarTestCase.test_decrypt) ... ok
+test_encrypt (tests.test_caesar.CaesarTestCase.test_encrypt) ... ok
+test_randomized (tests.test_caesar.CaesarTestCase.test_randomized) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % python -m unittest discover
+...FEFFFFFFFFFFF
+======================================================================
+ERROR: test_generate_keypair (tests.test_rsa.RSATestCase.test_generate_keypair)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_rsa.py", line 42, in test_generate_keypair
+    self.assertEqual(((121, 323), (169, 323)), rsa.generate_keypair(17, 19))
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/rsa.py", line 44, in generate_keypair
+    raise ValueError("Both numbers must be prime.")
+ValueError: Both numbers must be prime.
+
+======================================================================
+FAIL: test_gcd (tests.test_rsa.RSATestCase.test_gcd)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_rsa.py", line 22, in test_gcd
+    self.assertEqual(0, rsa.gcd(0, 0))
+AssertionError: 0 != None
+
+======================================================================
+FAIL: test_is_prime (tests.test_rsa.RSATestCase.test_is_prime)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_rsa.py", line 12, in test_is_prime
+    self.assertTrue(rsa.is_prime(2))
+AssertionError: None is not true
+
+======================================================================
+FAIL: test_multiplicative_inverse (tests.test_rsa.RSATestCase.test_multiplicative_inverse)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_rsa.py", line 33, in test_multiplicative_inverse
+    self.assertEqual(23, rsa.multiplicative_inverse(7, 40))
+AssertionError: 23 != None
+
+======================================================================
+FAIL: test_decrypt (tests.test_vigenere.VigenereTestCase.test_decrypt) (case=0, chiphertext='PYTHON', keyword='A', plaintext='PYTHON')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 35, in test_decrypt
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(chiphertext, keyword))
+AssertionError: 'PYTHON' != ''
+- PYTHON
+
+
+======================================================================
+FAIL: test_decrypt (tests.test_vigenere.VigenereTestCase.test_decrypt) (case=1, chiphertext='python', keyword='a', plaintext='python')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 35, in test_decrypt
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(chiphertext, keyword))
+AssertionError: 'python' != ''
+- python
+
+
+======================================================================
+FAIL: test_decrypt (tests.test_vigenere.VigenereTestCase.test_decrypt) (case=2, chiphertext='tfvzzvwkeaqv lq aqvpzf', keyword='lsci', plaintext='introduction to python')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 35, in test_decrypt
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(chiphertext, keyword))
+AssertionError: 'introduction to python' != ''
+- introduction to python
+
+
+======================================================================
+FAIL: test_decrypt (tests.test_vigenere.VigenereTestCase.test_decrypt) (case=3, chiphertext='LXFOPVEFRNHR', keyword='LEMON', plaintext='ATTACKATDAWN')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 35, in test_decrypt
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(chiphertext, keyword))
+AssertionError: 'ATTACKATDAWN' != ''
+- ATTACKATDAWN
+
+
+======================================================================
+FAIL: test_encrypt (tests.test_vigenere.VigenereTestCase.test_encrypt) (case=0, plaintext='PYTHON', keyword='A', chiphertext='PYTHON')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 21, in test_encrypt
+    self.assertEqual(chiphertext, vigenere.encrypt_vigenere(plaintext, keyword))
+AssertionError: 'PYTHON' != ''
+- PYTHON
+
+
+======================================================================
+FAIL: test_encrypt (tests.test_vigenere.VigenereTestCase.test_encrypt) (case=1, plaintext='python', keyword='a', chiphertext='python')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 21, in test_encrypt
+    self.assertEqual(chiphertext, vigenere.encrypt_vigenere(plaintext, keyword))
+AssertionError: 'python' != ''
+- python
+
+
+======================================================================
+FAIL: test_encrypt (tests.test_vigenere.VigenereTestCase.test_encrypt) (case=2, plaintext='introduction to python', keyword='lsci', chiphertext='tfvzzvwkeaqv lq aqvpzf')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 21, in test_encrypt
+    self.assertEqual(chiphertext, vigenere.encrypt_vigenere(plaintext, keyword))
+AssertionError: 'tfvzzvwkeaqv lq aqvpzf' != ''
+- tfvzzvwkeaqv lq aqvpzf
+
+
+======================================================================
+FAIL: test_encrypt (tests.test_vigenere.VigenereTestCase.test_encrypt) (case=3, plaintext='ATTACKATDAWN', keyword='LEMON', chiphertext='LXFOPVEFRNHR')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 21, in test_encrypt
+    self.assertEqual(chiphertext, vigenere.encrypt_vigenere(plaintext, keyword))
+AssertionError: 'LXFOPVEFRNHR' != ''
+- LXFOPVEFRNHR
+
+
+======================================================================
+FAIL: test_randomized (tests.test_vigenere.VigenereTestCase.test_randomized)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 42, in test_randomized
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(ciphertext, keyword))
+AssertionError: 'KZBRPIRqYwRDQQFVJTdzHJRnRP-GmGK INqmctBEDmPD-YKmkfCHcwFK TGMcAjz' != ''
+- KZBRPIRqYwRDQQFVJTdzHJRnRP-GmGK INqmctBEDmPD-YKmkfCHcwFK TGMcAjz
+
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+FAILED (failures=12, errors=1)
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % python -m unittest discover
+...FEFFFFFFFFFFF
+======================================================================
+ERROR: test_generate_keypair (tests.test_rsa.RSATestCase.test_generate_keypair)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_rsa.py", line 42, in test_generate_keypair
+    self.assertEqual(((121, 323), (169, 323)), rsa.generate_keypair(17, 19))
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/rsa.py", line 44, in generate_keypair
+    raise ValueError("Both numbers must be prime.")
+ValueError: Both numbers must be prime.
+
+======================================================================
+FAIL: test_gcd (tests.test_rsa.RSATestCase.test_gcd)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_rsa.py", line 22, in test_gcd
+    self.assertEqual(0, rsa.gcd(0, 0))
+AssertionError: 0 != None
+
+======================================================================
+FAIL: test_is_prime (tests.test_rsa.RSATestCase.test_is_prime)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_rsa.py", line 12, in test_is_prime
+    self.assertTrue(rsa.is_prime(2))
+AssertionError: None is not true
+
+======================================================================
+FAIL: test_multiplicative_inverse (tests.test_rsa.RSATestCase.test_multiplicative_inverse)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_rsa.py", line 33, in test_multiplicative_inverse
+    self.assertEqual(23, rsa.multiplicative_inverse(7, 40))
+AssertionError: 23 != None
+
+======================================================================
+FAIL: test_decrypt (tests.test_vigenere.VigenereTestCase.test_decrypt) (case=0, chiphertext='PYTHON', keyword='A', plaintext='PYTHON')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 35, in test_decrypt
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(chiphertext, keyword))
+AssertionError: 'PYTHON' != ''
+- PYTHON
+
+
+======================================================================
+FAIL: test_decrypt (tests.test_vigenere.VigenereTestCase.test_decrypt) (case=1, chiphertext='python', keyword='a', plaintext='python')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 35, in test_decrypt
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(chiphertext, keyword))
+AssertionError: 'python' != ''
+- python
+
+
+======================================================================
+FAIL: test_decrypt (tests.test_vigenere.VigenereTestCase.test_decrypt) (case=2, chiphertext='tfvzzvwkeaqv lq aqvpzf', keyword='lsci', plaintext='introduction to python')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 35, in test_decrypt
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(chiphertext, keyword))
+AssertionError: 'introduction to python' != ''
+- introduction to python
+
+
+======================================================================
+FAIL: test_decrypt (tests.test_vigenere.VigenereTestCase.test_decrypt) (case=3, chiphertext='LXFOPVEFRNHR', keyword='LEMON', plaintext='ATTACKATDAWN')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 35, in test_decrypt
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(chiphertext, keyword))
+AssertionError: 'ATTACKATDAWN' != ''
+- ATTACKATDAWN
+
+
+======================================================================
+FAIL: test_encrypt (tests.test_vigenere.VigenereTestCase.test_encrypt) (case=0, plaintext='PYTHON', keyword='A', chiphertext='PYTHON')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 21, in test_encrypt
+    self.assertEqual(chiphertext, vigenere.encrypt_vigenere(plaintext, keyword))
+AssertionError: 'PYTHON' != ''
+- PYTHON
+
+
+======================================================================
+FAIL: test_encrypt (tests.test_vigenere.VigenereTestCase.test_encrypt) (case=1, plaintext='python', keyword='a', chiphertext='python')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 21, in test_encrypt
+    self.assertEqual(chiphertext, vigenere.encrypt_vigenere(plaintext, keyword))
+AssertionError: 'python' != ''
+- python
+
+
+======================================================================
+FAIL: test_encrypt (tests.test_vigenere.VigenereTestCase.test_encrypt) (case=2, plaintext='introduction to python', keyword='lsci', chiphertext='tfvzzvwkeaqv lq aqvpzf')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 21, in test_encrypt
+    self.assertEqual(chiphertext, vigenere.encrypt_vigenere(plaintext, keyword))
+AssertionError: 'tfvzzvwkeaqv lq aqvpzf' != ''
+- tfvzzvwkeaqv lq aqvpzf
+
+
+======================================================================
+FAIL: test_encrypt (tests.test_vigenere.VigenereTestCase.test_encrypt) (case=3, plaintext='ATTACKATDAWN', keyword='LEMON', chiphertext='LXFOPVEFRNHR')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 21, in test_encrypt
+    self.assertEqual(chiphertext, vigenere.encrypt_vigenere(plaintext, keyword))
+AssertionError: 'LXFOPVEFRNHR' != ''
+- LXFOPVEFRNHR
+
+
+======================================================================
+FAIL: test_randomized (tests.test_vigenere.VigenereTestCase.test_randomized)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 42, in test_randomized
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(ciphertext, keyword))
+AssertionError: 'KZBRPIRqYwRDQQFVJTdzHJRnRP-GmGK INqmctBEDmPD-YKmkfCHcwFK TGMcAjz' != ''
+- KZBRPIRqYwRDQQFVJTdzHJRnRP-GmGK INqmctBEDmPD-YKmkfCHcwFK TGMcAjz
+
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.002s
+
+FAILED (failures=12, errors=1)
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % python -m doctest -v caesar.py
+Trying:
+    decrypt_caesar("SBWKRQ")
+Expecting:
+    'PYTHON'
+ok
+Trying:
+    decrypt_caesar("sbwkrq")
+Expecting:
+    'python'
+ok
+Trying:
+    decrypt_caesar("Sbwkrq3.6")
+Expecting:
+    'Python3.6'
+ok
+Trying:
+    decrypt_caesar("")
+Expecting:
+    ''
+ok
+Trying:
+    encrypt_caesar("PYTHON")
+Expecting:
+    'SBWKRQ'
+ok
+Trying:
+    encrypt_caesar("python")
+Expecting:
+    'sbwkrq'
+ok
+Trying:
+    encrypt_caesar("Python3.6")
+Expecting:
+    'Sbwkrq3.6'
+ok
+Trying:
+    encrypt_caesar("")
+Expecting:
+    ''
+ok
+1 items had no tests:
+    caesar
+2 items passed all tests:
+   4 tests in caesar.decrypt_caesar
+   4 tests in caesar.encrypt_caesar
+8 tests in 3 items.
+8 passed and 0 failed.
+Test passed.
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % python -m unittest discover
+...FEFFFFFFFFFFF
+======================================================================
+ERROR: test_generate_keypair (tests.test_rsa.RSATestCase.test_generate_keypair)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_rsa.py", line 42, in test_generate_keypair
+    self.assertEqual(((121, 323), (169, 323)), rsa.generate_keypair(17, 19))
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/rsa.py", line 44, in generate_keypair
+    raise ValueError("Both numbers must be prime.")
+ValueError: Both numbers must be prime.
+
+======================================================================
+FAIL: test_gcd (tests.test_rsa.RSATestCase.test_gcd)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_rsa.py", line 22, in test_gcd
+    self.assertEqual(0, rsa.gcd(0, 0))
+AssertionError: 0 != None
+
+======================================================================
+FAIL: test_is_prime (tests.test_rsa.RSATestCase.test_is_prime)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_rsa.py", line 12, in test_is_prime
+    self.assertTrue(rsa.is_prime(2))
+AssertionError: None is not true
+
+======================================================================
+FAIL: test_multiplicative_inverse (tests.test_rsa.RSATestCase.test_multiplicative_inverse)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_rsa.py", line 33, in test_multiplicative_inverse
+    self.assertEqual(23, rsa.multiplicative_inverse(7, 40))
+AssertionError: 23 != None
+
+======================================================================
+FAIL: test_decrypt (tests.test_vigenere.VigenereTestCase.test_decrypt) (case=0, chiphertext='PYTHON', keyword='A', plaintext='PYTHON')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 35, in test_decrypt
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(chiphertext, keyword))
+AssertionError: 'PYTHON' != ''
+- PYTHON
+
+
+======================================================================
+FAIL: test_decrypt (tests.test_vigenere.VigenereTestCase.test_decrypt) (case=1, chiphertext='python', keyword='a', plaintext='python')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 35, in test_decrypt
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(chiphertext, keyword))
+AssertionError: 'python' != ''
+- python
+
+
+======================================================================
+FAIL: test_decrypt (tests.test_vigenere.VigenereTestCase.test_decrypt) (case=2, chiphertext='tfvzzvwkeaqv lq aqvpzf', keyword='lsci', plaintext='introduction to python')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 35, in test_decrypt
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(chiphertext, keyword))
+AssertionError: 'introduction to python' != ''
+- introduction to python
+
+
+======================================================================
+FAIL: test_decrypt (tests.test_vigenere.VigenereTestCase.test_decrypt) (case=3, chiphertext='LXFOPVEFRNHR', keyword='LEMON', plaintext='ATTACKATDAWN')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 35, in test_decrypt
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(chiphertext, keyword))
+AssertionError: 'ATTACKATDAWN' != ''
+- ATTACKATDAWN
+
+
+======================================================================
+FAIL: test_encrypt (tests.test_vigenere.VigenereTestCase.test_encrypt) (case=0, plaintext='PYTHON', keyword='A', chiphertext='PYTHON')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 21, in test_encrypt
+    self.assertEqual(chiphertext, vigenere.encrypt_vigenere(plaintext, keyword))
+AssertionError: 'PYTHON' != ''
+- PYTHON
+
+
+======================================================================
+FAIL: test_encrypt (tests.test_vigenere.VigenereTestCase.test_encrypt) (case=1, plaintext='python', keyword='a', chiphertext='python')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 21, in test_encrypt
+    self.assertEqual(chiphertext, vigenere.encrypt_vigenere(plaintext, keyword))
+AssertionError: 'python' != ''
+- python
+
+
+======================================================================
+FAIL: test_encrypt (tests.test_vigenere.VigenereTestCase.test_encrypt) (case=2, plaintext='introduction to python', keyword='lsci', chiphertext='tfvzzvwkeaqv lq aqvpzf')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 21, in test_encrypt
+    self.assertEqual(chiphertext, vigenere.encrypt_vigenere(plaintext, keyword))
+AssertionError: 'tfvzzvwkeaqv lq aqvpzf' != ''
+- tfvzzvwkeaqv lq aqvpzf
+
+
+======================================================================
+FAIL: test_encrypt (tests.test_vigenere.VigenereTestCase.test_encrypt) (case=3, plaintext='ATTACKATDAWN', keyword='LEMON', chiphertext='LXFOPVEFRNHR')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 21, in test_encrypt
+    self.assertEqual(chiphertext, vigenere.encrypt_vigenere(plaintext, keyword))
+AssertionError: 'LXFOPVEFRNHR' != ''
+- LXFOPVEFRNHR
+
+
+======================================================================
+FAIL: test_randomized (tests.test_vigenere.VigenereTestCase.test_randomized)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 42, in test_randomized
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(ciphertext, keyword))
+AssertionError: 'KZBRPIRqYwRDQQFVJTdzHJRnRP-GmGK INqmctBEDmPD-YKmkfCHcwFK TGMcAjz' != ''
+- KZBRPIRqYwRDQQFVJTdzHJRnRP-GmGK INqmctBEDmPD-YKmkfCHcwFK TGMcAjz
+
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.002s
+
+FAILED (failures=12, errors=1)
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % python -m unittest -v tests.test_caesar
+test_decrypt (tests.test_caesar.CaesarTestCase.test_decrypt) ... ok
+test_encrypt (tests.test_caesar.CaesarTestCase.test_encrypt) ... ok
+test_randomized (tests.test_caesar.CaesarTestCase.test_randomized) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % git add homework01/caesar.py
+warning: could not open directory 'homework01/homework01/': No such file or directory
+fatal: pathspec 'homework01/caesar.py' did not match any files
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % git commit -m "Реализована функция encrypt_caesar()"
+On branch homework01
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   caesar.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../.DS_Store
+	../.idea/
+	../homework00/.idea/
+	GHJ,F2.py
+	"\320\277\321\200\320\276\320\261\320\260.py"
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % git add homework01/caesar.py
+warning: could not open directory 'homework01/homework01/': No such file or directory
+fatal: pathspec 'homework01/caesar.py' did not match any files
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % git commit -m "Реализована функция decrypt_caesar()"
+On branch homework01
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   caesar.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../.DS_Store
+	../.idea/
+	../homework00/.idea/
+	GHJ,F2.py
+	"\320\277\321\200\320\276\320\261\320\260.py"
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % git commit -a "Реализована функция encrypt_caesar()"
+fatal: paths 'Реализована функция encrypt_caesar() ...' with -a does not make sense
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % git push origin homework01
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'homework01' on GitHub by visiting:
+remote:      https://github.com/lezyonish/cs102-2024/pull/new/homework01
+remote: 
+To https://github.com/lezyonish/cs102-2024
+ * [new branch]      homework01 -> homework01
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % git add homework01/caesar.py
+warning: could not open directory 'homework01/homework01/': No such file or directory
+fatal: pathspec 'homework01/caesar.py' did not match any files
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % git add /caesar.py          
+fatal: /caesar.py: '/caesar.py' is outside repository at '/Users/elizavetanovickaya/cs102-2024'
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % git add /Users/elizavetanovickaya/cs102-2024/homework01/caesar.py
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % git add /Users/elizavetanovickaya/cs102-2024/homework01/caesar.py
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % git commit -m "Реализована функция encrypt_caesar()"
+[homework01 64e347c] Реализована функция encrypt_caesar()
+ Committer: Elizaveta <elizavetanovickaya@Noutbuk-Elizaveta.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 24 insertions(+), 3 deletions(-)
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % git commit -m "Реализована функция decrypt_caesar()"
+On branch homework01
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../.DS_Store
+	../.idea/
+	../homework00/.idea/
+	GHJ,F2.py
+	"\320\277\321\200\320\276\320\261\320\260.py"
+
+nothing added to commit but untracked files present (use "git add" to track)
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % git push origin homework01
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 858 bytes | 858.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/lezyonish/cs102-2024
+   cd12616..64e347c  homework01 -> homework01
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % python -m unittest discover
+...FEFFFFFFFFFFF
+======================================================================
+ERROR: test_generate_keypair (tests.test_rsa.RSATestCase.test_generate_keypair)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_rsa.py", line 42, in test_generate_keypair
+    self.assertEqual(((121, 323), (169, 323)), rsa.generate_keypair(17, 19))
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/rsa.py", line 44, in generate_keypair
+    raise ValueError("Both numbers must be prime.")
+ValueError: Both numbers must be prime.
+
+======================================================================
+FAIL: test_gcd (tests.test_rsa.RSATestCase.test_gcd)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_rsa.py", line 22, in test_gcd
+    self.assertEqual(0, rsa.gcd(0, 0))
+AssertionError: 0 != None
+
+======================================================================
+FAIL: test_is_prime (tests.test_rsa.RSATestCase.test_is_prime)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_rsa.py", line 12, in test_is_prime
+    self.assertTrue(rsa.is_prime(2))
+AssertionError: None is not true
+
+======================================================================
+FAIL: test_multiplicative_inverse (tests.test_rsa.RSATestCase.test_multiplicative_inverse)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_rsa.py", line 33, in test_multiplicative_inverse
+    self.assertEqual(23, rsa.multiplicative_inverse(7, 40))
+AssertionError: 23 != None
+
+======================================================================
+FAIL: test_decrypt (tests.test_vigenere.VigenereTestCase.test_decrypt) (case=0, chiphertext='PYTHON', keyword='A', plaintext='PYTHON')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 35, in test_decrypt
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(chiphertext, keyword))
+AssertionError: 'PYTHON' != ''
+- PYTHON
+
+
+======================================================================
+FAIL: test_decrypt (tests.test_vigenere.VigenereTestCase.test_decrypt) (case=1, chiphertext='python', keyword='a', plaintext='python')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 35, in test_decrypt
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(chiphertext, keyword))
+AssertionError: 'python' != ''
+- python
+
+
+======================================================================
+FAIL: test_decrypt (tests.test_vigenere.VigenereTestCase.test_decrypt) (case=2, chiphertext='tfvzzvwkeaqv lq aqvpzf', keyword='lsci', plaintext='introduction to python')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 35, in test_decrypt
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(chiphertext, keyword))
+AssertionError: 'introduction to python' != ''
+- introduction to python
+
+
+======================================================================
+FAIL: test_decrypt (tests.test_vigenere.VigenereTestCase.test_decrypt) (case=3, chiphertext='LXFOPVEFRNHR', keyword='LEMON', plaintext='ATTACKATDAWN')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 35, in test_decrypt
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(chiphertext, keyword))
+AssertionError: 'ATTACKATDAWN' != ''
+- ATTACKATDAWN
+
+
+======================================================================
+FAIL: test_encrypt (tests.test_vigenere.VigenereTestCase.test_encrypt) (case=0, plaintext='PYTHON', keyword='A', chiphertext='PYTHON')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 21, in test_encrypt
+    self.assertEqual(chiphertext, vigenere.encrypt_vigenere(plaintext, keyword))
+AssertionError: 'PYTHON' != ''
+- PYTHON
+
+
+======================================================================
+FAIL: test_encrypt (tests.test_vigenere.VigenereTestCase.test_encrypt) (case=1, plaintext='python', keyword='a', chiphertext='python')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 21, in test_encrypt
+    self.assertEqual(chiphertext, vigenere.encrypt_vigenere(plaintext, keyword))
+AssertionError: 'python' != ''
+- python
+
+
+======================================================================
+FAIL: test_encrypt (tests.test_vigenere.VigenereTestCase.test_encrypt) (case=2, plaintext='introduction to python', keyword='lsci', chiphertext='tfvzzvwkeaqv lq aqvpzf')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 21, in test_encrypt
+    self.assertEqual(chiphertext, vigenere.encrypt_vigenere(plaintext, keyword))
+AssertionError: 'tfvzzvwkeaqv lq aqvpzf' != ''
+- tfvzzvwkeaqv lq aqvpzf
+
+
+======================================================================
+FAIL: test_encrypt (tests.test_vigenere.VigenereTestCase.test_encrypt) (case=3, plaintext='ATTACKATDAWN', keyword='LEMON', chiphertext='LXFOPVEFRNHR')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 21, in test_encrypt
+    self.assertEqual(chiphertext, vigenere.encrypt_vigenere(plaintext, keyword))
+AssertionError: 'LXFOPVEFRNHR' != ''
+- LXFOPVEFRNHR
+
+
+======================================================================
+FAIL: test_randomized (tests.test_vigenere.VigenereTestCase.test_randomized)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/elizavetanovickaya/cs102-2024/homework01/tests/test_vigenere.py", line 42, in test_randomized
+    self.assertEqual(plaintext, vigenere.decrypt_vigenere(ciphertext, keyword))
+AssertionError: 'KZBRPIRqYwRDQQFVJTdzHJRnRP-GmGK INqmctBEDmPD-YKmkfCHcwFK TGMcAjz' != ''
+- KZBRPIRqYwRDQQFVJTdzHJRnRP-GmGK INqmctBEDmPD-YKmkfCHcwFK TGMcAjz
+
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.002s
+
+FAILED (failures=12, errors=1)
+(cs102) elizavetanovickaya@Noutbuk-Elizaveta homework01 % 
